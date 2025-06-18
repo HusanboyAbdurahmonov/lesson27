@@ -251,7 +251,7 @@ h3:hover {
     transform: scale(1.1);
 }
 
-@media(max-width:600px) {
+@media(max-width:650px) {
     nav .container {
         padding: 20px;
     }
