@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Crimson Pro", serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .container {
+    padding: 20px;
+}
+
+nav .nav_logo {
+    text-align: center;
+}
+
+.hero {
+    background-image: url(../imgs/heroImg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70vh;
+}
+
+.hero .hero_info {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.hero .hero_info h1 {
+    font-size: 48px;
+    color: white;
+    padding-top: 100px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.hero .hero_info span {
+    color: #E67136;
+}
+
+.btn {
+    padding: 12px 60px;
+    background-color: #E67136;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -10px 10px 20px 0px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.section1 {
+    background-color: #F5F4F4;
+}
+
+.section1 .container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section1 .main_info h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+    color: #E67136;
+}
+
+.section1 .main_info h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.section1 .main_info p {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.section2 .info h1 {
+    text-align: center;
+    color: #E67136;
+    font-size: 45px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+}
+
+.section3 {
+    background-color: #F5F4F4;
+    padding: 30px 0px;
+}
+
+.section3 .info1 {
+    text-align: center;
+}
+
+.info1 h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.info1 span {
+    color: #E67136;
+    font-size: 55px;
+}
+
+.info1 h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info1 p {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.section4{
+    background-color: #D9D9D933;
+    padding: 30px 0px ;
+
+}
+.section4_info h1{
+    text-align: center;
+    font-size: 45px;
+    color: #E67136;
+    margin-bottom: 70px;
+    padding-top: 50px;
+}
+
+.section4 .pictures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.section4 .picture{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section4 img{
+    margin-bottom: 50px;
+}
+.section5 .home{
+    text-align: center;
+}
+.section5{
+    margin-bottom: 60px;
+}
+.section5 .home h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+footer{
+    background-color: #244439CC;
+    padding: 30px 0px;
+}
+footer .title{
+    width: 1200px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+footer .logo2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px ;
+    margin-bottom: 20px;
+}
+footer .cart h3{
+    color: #E67136;
+    margin-bottom: 20px;
+}
+footer .cart div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.end{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    transition: all 0.3s ease-in-out;
+}
+h3{
+    transition: all 0.3s ease-in-out;
+}
+/* hover */
+.btn:hover{
+    transform: scale(1.2);
+    box-shadow: -10px 10px 20px #E67136;
+}
+img:hover{
+    transform: scale(1.1);
+}
+h3:hover{
+    border-bottom: 2px solid #E67136;
+    transform: scale(1.1);
+}
